@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 
     app.routes {
 
-        get("/new_music") { ctx ->
+        get("/") { ctx ->
             ctx.json(getSongList())
         }
     }
